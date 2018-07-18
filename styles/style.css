@@ -1,0 +1,40 @@
+/* color scheme
+link- https://www.colorcombos.com/color-schemes/386/ColorCombo386.html
+yellow green - #2A2C05
+yellow orange -  #EFE0B9
+yellow orange darker -  #E4B04A
+orange sepia -  #643B0F
+orange red - 	#B7521E */
+
+
+html {
+
+}
+
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 200;
+}
+header {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  background-image: url('../images/desert_background.jpg');
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.my-navbar ul li {
+  margin-right: 30px;
+
+}
+h1 {
+  color: green;
+  text-align: center;
+  padding: 50px;
+  margin-top: 40px;
+}
