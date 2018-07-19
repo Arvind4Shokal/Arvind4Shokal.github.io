@@ -17,15 +17,24 @@ body {
   font-weight: 200;
 }
 header {
-  position: relative;
-  width: 100%;
+  /* position: relative; */
+  /* width: 100%;
   min-height: auto;
   background-image: url('../images/desert_background.jpg');
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  -o-background-size: cover;
+  -o-background-size: cover; */
+  background-color: #EFE0B9;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 .my-navbar ul li {
@@ -76,4 +85,33 @@ header {
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: #2A2C05; }
+}
+
+ #myWork {
+  padding: 100px 0px;
+  background-color: #00000;
+}
+
+
+#myWork .project-box i{
+  text-align: center;
+  display: block;
+  color: #B7521E;
+}
+
+#myWork .project-box h3 {
+  text-align: center;
+  padding-top: 30px;
+  color: #B7521E;
+}
+#myWork .project-box p {
+  height: 100px;
+  text-align: center;
+  padding: 5px;
+  color: #643B0F;
+}
+
+#myWork .project-box .github-link {
+  text-align: center;
+  color: #2A2C05;
 }
